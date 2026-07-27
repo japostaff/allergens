@@ -18,7 +18,6 @@
     --ink:#161414;
     --red:#C8102E;
     --red-dark:#9E0B23;
-    --blue:#0066CC;
     --card:#FFFFFF;
     --line:#E4DEDE;
     --muted:#6E6666;
@@ -128,7 +127,7 @@
   .lightbox.on{display:flex}
   .lightbox img{max-width:min(94vw,760px);max-height:86vh;border-radius:14px;box-shadow:0 8px 40px rgba(0,0,0,.6)}
   .pair-toggle{display:flex;align-items:center;justify-content:space-between;cursor:pointer;user-select:none;padding:2px 0}
-  .pair-toggle h4{margin:0;color:var(--blue)}
+  .pair-toggle h4{margin:0}
   .pair-toggle .pair-chev{transition:transform .25s ease;width:14px;height:14px}
   .pair-toggle.open .pair-chev{transform:rotate(180deg)}
   .pair-wrap{display:none}
@@ -432,6 +431,15 @@ const DATA = {
         "pair": {"w": "Off-dry Riesling or Sauvignon Blanc — residual sugar and high acidity balance chili heat and spicy mayo richness while enhancing fish umami.", "r": "Pinot Noir or lighter red blend, slightly chilled — bright fruity flavors pair with creamy tuna and heat without clashing with raw fish.", "s": "Nigori or sparkling sake — nigori's gentle sweetness and creamy texture tame the heat; sparkling sake's carbonation cleanses the palate between spicy bites."},
         "thumb": "https://d1w7312wesee68.cloudfront.net/vKbU1gVO-ZO49_-0Yi88-g22oCy8VNAavkFYuKor8y0/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/3d4c69ad-6484-48ce-8d6f-8d273c744f0d/MenuItem/1ef99597-c07d-4957-bae9-91184637726e.jpg",
         "img": "https://d1w7312wesee68.cloudfront.net/DxeupK1i4lstTxWsaZVqlE2NcpDj4UN1nG9M9GU7sHE/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/3d4c69ad-6484-48ce-8d6f-8d273c744f0d/MenuItem/1ef99597-c07d-4957-bae9-91184637726e.jpg"
+      },
+      {
+        "name": "Madrid Moon",
+        "cat": "SIGNATURE ROLLS",
+        "ings": ["Spicy yellowtail", "Cucumber", "Cilantro", "Seared spicy crab mix", "Black tobiko", "Scallions", "Jalapeno citrus sauce (contains truffle)", "Sushi rice"],
+        "alg": [{"a": "Gluten", "s": "Black tobiko, jalapeno citrus sauce"}, {"a": "Egg", "s": "Spicy yellowtail, seared spicy crab mix"}, {"a": "Soy", "s": "Spicy yellowtail* and seared spicy crab mix* (mixes contain soybean & canola oil — confirm with guest), jalapeno citrus sauce"}, {"a": "Fish", "s": "Spicy yellowtail, black tobiko"}, {"a": "Shellfish", "s": "Seared spicy crab mix"}, {"a": "Citrus", "s": "Jalapeno citrus sauce"}, {"a": "Nightshade", "s": "Spicy yellowtail, jalapeno citrus sauce, seared spicy crab mix"}, {"a": "Onion", "s": "Scallions"}, {"a": "Rice", "s": "Sushi rice"}, {"a": "Garlic", "s": "Jalapeno citrus sauce"}, {"a": "Rapeseed", "s": "Jalapeno citrus sauce, spicy yellowtail, seared spicy crab mix"}, {"a": "Ginger", "s": "Jalapeno citrus sauce, pickled ginger"}, {"a": "Cilantro", "s": "Cilantro"}],
+        "pair": {"w": "Off-dry Riesling or Albariño — balances the rich, buttery fish while cutting through the creamy spicy mayo and cooling the heat.", "r": "Pinot Noir or lighter red blend, slightly chilled — light and low-tannin; bright fruity flavors pair with the creamy yellowtail and the heat.", "s": "Nigori or sparkling sake — nigori's gentle sweetness and creamy texture tone down the heat; sparkling sake's carbonation cleanses the palate between spicy bites."},
+        "thumb": "https://d1w7312wesee68.cloudfront.net/Vg1KBEOf4o5sUAugQe217FWFPppP6DqoDBeLKZ4TuLM/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/3d4c69ad-6484-48ce-8d6f-8d273c744f0d/MenuItem/0cc35994-6d10-4ebb-8dd3-69ca2f558a88.jpg",
+        "img": "https://d1w7312wesee68.cloudfront.net/iganXgFJ_-Hz3tYjuvUwe0PQpYQ0vi4cmT2JHDUpydk/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/3d4c69ad-6484-48ce-8d6f-8d273c744f0d/MenuItem/0cc35994-6d10-4ebb-8dd3-69ca2f558a88.jpg"
       }
     ]
   },
@@ -611,6 +619,15 @@ const DATA = {
         "pair": {"w": "Riesling semiseco o Sauvignon Blanc — el azúcar residual y la alta acidez equilibran el picante del chile y la riqueza de la mayo picante, realzando el umami del pescado.", "r": "Pinot Noir o mezcla tinta ligera, ligeramente frío — sabores frutales brillantes que combinan con el atún cremoso y el picante sin chocar con el pescado crudo.", "s": "Nigori o sake espumoso — el dulzor suave y la textura cremosa del nigori calman el picor; la carbonatación del espumoso limpia el paladar entre bocados picantes."},
         "thumb": "https://d1w7312wesee68.cloudfront.net/vKbU1gVO-ZO49_-0Yi88-g22oCy8VNAavkFYuKor8y0/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/3d4c69ad-6484-48ce-8d6f-8d273c744f0d/MenuItem/1ef99597-c07d-4957-bae9-91184637726e.jpg",
         "img": "https://d1w7312wesee68.cloudfront.net/DxeupK1i4lstTxWsaZVqlE2NcpDj4UN1nG9M9GU7sHE/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/3d4c69ad-6484-48ce-8d6f-8d273c744f0d/MenuItem/1ef99597-c07d-4957-bae9-91184637726e.jpg"
+      },
+      {
+        "name": "Madrid Moon",
+        "cat": "ROLLOS ESPECIALES",
+        "ings": ["Yellowtail picante", "Pepino", "Cilantro", "Mezcla de cangrejo picante sellada", "Tobiko negro", "Cebollín", "Salsa de jalapeño cítrica (contiene trufa)", "Arroz de sushi"],
+        "alg": [{"a": "Gluten", "s": "Tobiko negro, salsa de jalapeño cítrica"}, {"a": "Huevo", "s": "Yellowtail picante, mezcla de cangrejo picante"}, {"a": "Soya", "s": "Yellowtail picante* y mezcla de cangrejo picante* (las mezclas contienen aceite de soya y canola — confírmalo con el cliente), salsa de jalapeño cítrica"}, {"a": "Pescado", "s": "Yellowtail picante, tobiko negro"}, {"a": "Mariscos", "s": "Mezcla de cangrejo picante"}, {"a": "Cítricos", "s": "Salsa de jalapeño cítrica"}, {"a": "Solanáceas", "s": "Yellowtail picante, salsa de jalapeño cítrica, mezcla de cangrejo picante"}, {"a": "Cebolla", "s": "Cebollín"}, {"a": "Arroz", "s": "Arroz de sushi"}, {"a": "Ajo", "s": "Salsa de jalapeño cítrica"}, {"a": "Canola", "s": "Salsa de jalapeño cítrica, yellowtail picante, mezcla de cangrejo picante"}, {"a": "Jengibre", "s": "Salsa de jalapeño cítrica, jengibre encurtido"}, {"a": "Cilantro", "s": "Cilantro"}],
+        "pair": {"w": "Riesling semiseco o Albariño — equilibran el pescado rico y mantecoso, cortan la cremosidad de la mayo picante y refrescan el picor en el paladar.", "r": "Pinot Noir o mezcla tinta ligera de taninos bajos, ligeramente frío — no choca con el pescado crudo; sus sabores frutales combinan con el yellowtail cremoso y el picante.", "s": "Nigori o sake espumoso — el dulzor suave y la textura cremosa del nigori calman el picor; la carbonatación del espumoso limpia el paladar entre bocados picantes."},
+        "thumb": "https://d1w7312wesee68.cloudfront.net/Vg1KBEOf4o5sUAugQe217FWFPppP6DqoDBeLKZ4TuLM/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/3d4c69ad-6484-48ce-8d6f-8d273c744f0d/MenuItem/0cc35994-6d10-4ebb-8dd3-69ca2f558a88.jpg",
+        "img": "https://d1w7312wesee68.cloudfront.net/iganXgFJ_-Hz3tYjuvUwe0PQpYQ0vi4cmT2JHDUpydk/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/3d4c69ad-6484-48ce-8d6f-8d273c744f0d/MenuItem/0cc35994-6d10-4ebb-8dd3-69ca2f558a88.jpg"
       }
     ]
   }
